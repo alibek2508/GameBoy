@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after,
+html
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    text-decoration: none
+    list-style: none
+    color: #355070
+    font-family: 'Josefin Sans', sans-serif
+    font-weight: 500
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,700&display=swap')
+
+=fontNormal()
+    color: #826F8C
+    font-family: Josefin Sans
+    font-size: 18px
+    font-style: normal
+    font-weight: 500
+    text-align: justify
+    line-height: 29px
+=fontTitle()
+    color: #EB8382
+    font-family: Josefin Sans
+    font-size: 68px
+    font-style: normal
+    font-weight: 700
+    line-height: 75px
+=firstText()
+    margin-right: 2px
+    color: #446381
+    font-size: 23px
+
+$main-black: #355070
+$main-dark-brown: #6d597a
+$main-brown: #b56576
+$main-light-brown: #e56b6f
+$main-yellow: #eaac8b
+$main-bg: #f6dacc
+$secondary-black: #446381
+$secondary-brown: #eb8382
+body
+    background-color: $main-bg
+.container
+    width: 1170px
+    margin: 0 auto
+.about-text
+    color: #446381
+    font-family: Josefin Sans
+    font-size: 23px
+    font-style: normal
+    font-weight: 500
+    line-height: 24px
+.title-text
+    color: #EB8382
+    font-family: Josefin Sans
+    font-size: 68px
+    font-style: normal
+    font-weight: 700
+    line-height: 75px
+.description-text
+    color: #826F8C
+    font-family: Josefin Sans
+    font-size: 18px
+    font-style: normal
+    font-weight: 500
+    line-height: 29px
+
+@import "./header"
+@import "./_main-section"
+@import "./_section-about"
+@import "./_section-console"
+@import "./_section_price"
+@import "./_footer"

@@ -1,0 +1,88 @@
+.main-section
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    gap: 32px
+    margin-bottom: 70px
+    &__left-wrapper
+        position: relative
+        display: grid
+        grid-column: 1/span 1
+        align-self: center
+    &__right-wrapper
+        position: relative
+        display: grid
+        grid-column: 2/span 1
+    &__card-vr
+        background-color: rgba(255, 255, 255, 0.4)
+        position: absolute
+        left: -60px
+        max-width: 211px
+        max-height: 95px
+        border-radius: 10px
+        font-size: 10px
+        display: flex
+        padding: 10px
+        border-radius: 10px
+        box-shadow: 4px 15px 13px 5px rgba(245, 199, 189, 0.36)
+        * + *
+            margin-top: 5px
+        span 
+            font-size: 8px
+        p
+            color: #EB8382
+        h5
+            color: #446381
+    &__card-joystick
+        background-color: rgba(255, 255, 255, 0.4)
+        position: absolute
+        right: -124px
+        bottom: -2px
+        max-width: 211px
+        max-height: 95px
+        border-radius: 10px
+        font-size: 10px
+        display: flex
+        padding: 10px
+        border-radius: 10px
+        gap: 10px
+        box-shadow: 4px 15px 13px 5px rgba(245, 199, 189, 0.36)
+        * + *
+            margin-top: 5px
+        span 
+            font-size: 8px
+        p
+            color: #EB8382
+        h5
+            color: #446381
+    &__description-text
+        margin-bottom: 36px
+.arrow
+    display: flex
+    align-items: center
+    margin-bottom: 26px
+    &-img
+        margin-left: 29px
+h1
+    margin-bottom: 30px
+.title-text
+    &__span
+        color: #446381
+        font-family: Josefin Sans
+        font-size: 58px
+        font-style: normal
+        font-weight: 700
+        line-height: 75px
+
+.cross-one
+    position: absolute
+    right: 246px
+    bottom: -115px
+.cross-two
+    position: absolute
+    left: 0px
+    top: 300px
+.dots-img
+    position: absolute
+    right: -140px
+    bottom: 250px
+
