@@ -369,6 +369,16 @@ h1 {
   top: 23px;
   right: 23px;
 }
+.section-price__basic:hover .union {
+  position: absolute;
+  left: 0px;
+  bottom: -37px;
+  display: inline-block;
+  background-image: url("../img/Union.svg");
+  background-repeat: no-repeat;
+  width: 207.535px;
+  height: 187.984px;
+}
 .section-price__title-text {
   color: #446381;
   font-family: Josefin Sans;
